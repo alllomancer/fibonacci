@@ -18,10 +18,10 @@ the folder vm contains the vagrantfile to spin up 2 machines
 the ansible playbook installs java and jenkins on the jenkins machine
 the node is created using a vm box with docker built in
 
-# bonus
+## bonus
 the tf folder contains all the code needed to deploy the docker on ecs
 it assumes that the vpc used is called "default" and the subnet are tagged with "privata" and "public" tags
 
 
-# another bonus
+## another bonus
 for CI the repo is using github actions in order to build the image on any change to the github code in the main branch
